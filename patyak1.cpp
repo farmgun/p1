@@ -12,7 +12,7 @@ using std::getline;
 
 int main()
 {
-    for (int i = 0; i < 11; i += 2)
+    for (int i = 5; i < 110; i += 20)
     {
         std::cout << i << "\b";
         std::this_thread::sleep_for(std::chrono::seconds(1));
